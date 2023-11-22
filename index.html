@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>StewVed's Webtop</title>
+<meta content="Desktop WebApp by Stewart Robinson (StewVed)" name=description>
+<meta content="StewVed,stewart,robinson,webapp,free,program,app,webtop,game,program,application,pc,computer,calculator,finance,tax credit,wage,timer,stopwatch,html5,javascript,diary,money,work,savings,investment,credit,debt,tone,audio,generator,technology,operating system,desktop environment,calorie" name=keywords>
+<meta content="Stewart Robinson (StewVed)" name=author>
+<meta content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" name=viewport>
+<link rel="icon" href="favicon.png">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="manifest" href="appmanifest">
+<style>
+  html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    touch-action: none;
+  }
+
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #202740;
+    background: linear-gradient(toright,#202740,#405480,#202740);
+    color: #dfdbd2;
+    font: 14px sans-serif;
+    touch-action: none;
+    user-select: none;
+  }
+
+  .ubLink {
+    font-weight: 700;
+    text-decoration: underline;
+    color: #ffe;
+    transition: .4s;
+    opacity: .5;
+  }
+
+  .ubLink:hover {
+    transition: .3s;
+    opacity: 1;
+  }
+
+  .B {
+    font-weight: 700;
+  }
+
+  .loadin {
+    opacity: 0.4;
+    font-size: 5em;
+    text-shadow: 0 0 16px #dfdbd2;
+    animation: oPulse .7s linear alternate infinite;
+  }
+
+  @keyframes oPulse {
+    from {
+      opacity: 0.4;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+</style>
+<script>
+  var fVer = '';
+  window.addEventListener('error', errorHandler, false);
+  function errorHandler(e) {
+    if (window['Win_errorHandler']) {
+      Win_errorHandler(e);
+    } else {
+      if (document.getElementById('LP')) {
+        document.getElementById('LP').innerHTML += '<span style="color:#f00;">Error detected:<br><br>' + e.message + '<br><br>in file ' + e.filename + '<br>in Line: ' + e.lineno + ', Columb: ' + e.colno + '</span><br>';
+      }
+    }
+  }
+  var a = document.createElement("script");
+  a.src = fVer + "_ldr.js",
+  document.head.appendChild(a)
+</script>
+</head>
+<body>
+<div style=height:0;border:0;padding:0;margin:0;overflow:hidden></div>
+<div id=deSc style="color:#fed;padding:12px 8px 24px 8px;overflow:hidden">
+  <script>
+    document.body.style.cursor = "progress",
+    document.documentElement.style.overflow = "hidden",
+    document.body.style.height = window.innerHeight + "px",
+    document.getElementById("deSc").style.height = document.getElementById("deSc").style.padding = 0
+  </script>
+  <h1 style="text-align:center;color:#fff;text-shadow:0 0 6px;font-size:2.75em">StewVed's Webtop</h1>
+  <p>Stewved's Webtop was written from the ground up and by hand, by Stewart Robinson (StewVed), and is powered by pure HTML5.
+  <p style=text-align:center;font-size:2em;color:#fff>
+    This is how it looks: <img alt="StewVed's Webtop'" src=images/webtop-screen.gif style="border-radius:12px;width:98%;margin:4px;box-shadow:0 0 28px #fff">
+    <span style="font-style:italic;font-size:2.25em;text-shadow:0 0 16px #ffe">ooh shiny!!!</span>
+  <p style=text-align:center;font-size:1.75em>
+    To give the Webtop a go for one's self, one simply uses a modern browser with Javascript enabled.<br>
+    <br>
+    <q>
+      <span style=font-style:italic;font-size:1.25em>One does not simply browse the internet without JavaScript enabled!</span>
+    </q>
+    <br>
+    <br>
+    <br>
+    <div id=jsNo>
+      <h2 style=margin-bottom:0>StewVed's Webtop contains:</h2>
+      <ul style=margin-top:0>
+        <li>
+          <span class=B>Calories per grams calculator: </span>
+          Find out either how many calories are in a specific amount of food, or how much food contains a specific amount of calories!
+        <li>
+          <span class=B>Calorie Requirement Calculator: </span>
+          find out how many calories you need each day with (possibly) the most accurate calorie calculator on the web! Also tells you whether you are over/underweight, gives your target calories per day to correct this, and how long it is likely to take to reach it. As well as that, it also tells you your ideal waist measurement, which can be more accurate than BMI (especially for bodybuilders!)
+        <li>
+          <span class=B>Tone Generator: </span>
+          useful for hearing tests, checking frequency responce, resonant frequencies, tuning an instrument.
+        <li>
+          <span class=B>Wordsearch: </span>
+          using completely random words, generates unique and new wordsearches every go. Family Friendly wordlist :D
+        <li>
+          <span class=B>JSCavern: </span>
+          a remake of QL Cavern. The original game was from the 80's, and published on the Sinclair QL.
+        <li>
+          <span class=B>Dosh Manager: </span>
+          for determining how you are financially.
+        <li>
+          <span class=B>UK Tax Credit calculator: </span>
+          for working out how much you could get in Tax Credits, including Working Tax Credits, Child Tax Credits, and Disability Element of Tax Credits.
+        <li>
+          <span class=B>UK Wage Calculator: </span>
+          to work out how much you would get before and after tax and NI.
+        <li>
+          <span class=B>Browser Benchmarker: </span>
+          that can show how your browser performs under various tests.
+        <li>
+          <span class=B>Tillago Timer: </span>
+          find out how long it has been, or is until any date within 100 years either way of now.
+        <li>
+          <span class=B>TeaTimer: </span>
+          a basic countdown timer, so you don't burn your dinner, like the Author ironicaly did while programming it!
+        <li>
+          <span class=B>Downloadable .NET-based desktop apps: </span>
+          FREE to download and use:
+          <ul>
+            <li>
+              <span class=B>Private Diary: </span>
+              a 256-bit AES encrypted diary app, to journal your life, and keep it safe from prying eyes!
+            <li>
+              <span class=B>DUMBasic: </span>
+              a useful little app that monitors your internet usage amounts. Excellent if your ISP limits your usage.
+            <li>
+              <span class=B>Event Manager: </span>
+              manage your upcoming events with this app. Invaluable if you have a memory like a sieve (as the author does!)
+            <li>
+              <span class=B>AppTimer: </span>
+              keep an eye on how long you've used an app, so you know how long you've used it. Superb for gaming to find out how long a game actually lasts!
+          </ul>
+        <li>
+          <span class=B>ArcNerd: </span>
+          A breakout-style game prototype, which is just a single level at the moment. Kinda a proof-of-concept thing for me.
+        <li>
+          <span class=B>Picture Viewer: </span>
+          a zoomable picture viewer, when when zoomed, you can pan around the image.
+        <li>
+          <span class=B>HTML5 Video player: </span>
+          with a playlist (I still have to create more content for that, and there are refinements to be made)
+      </ul>
+      <p>All of the apps and games are resizable, along with being able to run in exclusive fullscreen mode.
+      <p>The webtop itself is a pretty much complete desktop environment, with window management, menus, the ability to load and save settings etc.
+      <p>
+        StewVed's Webtop is modeled after Unity, which is the desktop environment of Canonical's  <a class=ubLink href=http://www.ubuntu.com / target=_blank>Ubuntu OS</a>
+        .<br>
+        <hr>
+    </div>
+  <div id=abSV>
+    <img alt="The Author" src=images/StewVed.jpg style=float:left;border-radius:6px;width:15%;margin-right:8px;margin-bottom:8px>
+    <h1>About the creator/Devloper of StewVed's Webtop:</h1>
+    <p>
+      Stewart Robinson (StewVed) was born in the United Kingdom, in the late 1970's.<br>
+      <p>
+        He learned just about everything he knows about HTML/CSS/JavaScript programming from <a class=ubLink href=http://www.w3schools.com target=_blank>W3Schools</a>
+      <p>
+        He is a PC Gamer at heart, and though he generally games on Windows, he uses Linux, namely:  <a class=ubLink href=http://www.ubuntu.com / target=_blank>Ubuntu OS</a>
+        ,  <a class=ubLink href=https://www.opensuse.org / target=_blank>OpenSUSE</a>
+        , and  <a class=ubLink href=https://manjaro.github.io / target=_blank>Manjaro</a>
+        to mention just a few!
+      </p>
+      <br style=clear:both>
+      <hr>
+  </div>
+  <div id=bugN>
+    <h1 style=text-align:center;margin-bottom:0;font-size:1.75em>StewVed's standard notice:</h1>
+    <p style=text-align:center;font-size:1.5em;color:red;margin-top:0>
+      Warning: May contain Bugs!<br>
+      Cannot guarantee Bug free!<br>Produced on a system where Buggy products are also made!
+  </div>
+  <div id=crn>
+    <h2 style=text-align:center>
+      Copyright &nbsp;&copy;&nbsp;2019 Created by <span class=toolTipclass id=cpContact>Stewart Robinson</span>
+      (StewVed)
+    </h2>
+  </div>
+  <script>
+    document.body.innerHTML += '<div id="Load" style="position:absolute;text-align:center;width:100%;margin:auto;"><span id="Ling" class="loadin">Loading...</span><div id="LP"></div></div>',
+    document.getElementById("Load").style.top = document.body.offsetHeight / 2 - document.getElementById("Load").offsetHeight / 2 + "px"
+  </script>
+</div>
+</body>
+</html>

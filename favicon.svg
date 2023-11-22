@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="64"
+   height="64"
+   id="svg4149"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   viewBox="0 0 64 64"
+   sodipodi:docname="favicon.svg">
+  <defs
+     id="defs4151">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4699">
+      <stop
+         style="stop-color:#000000;stop-opacity:0.24705882"
+         offset="0"
+         id="stop4701" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.88235295"
+         offset="1"
+         id="stop4703" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4699"
+       id="radialGradient4723"
+       cx="23.495319"
+       cy="13.674302"
+       fx="23.495319"
+       fy="13.674302"
+       r="32"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.0128321,1.3748115,-1.380802,0.01288803,39.307284,-12.296052)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.7781746"
+     inkscape:cx="25.199496"
+     inkscape:cy="32"
+     inkscape:current-layer="layer3"
+     showgrid="true"
+     inkscape:document-units="px"
+     inkscape:grid-bbox="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4154">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="ball"
+     inkscape:groupmode="layer">
+    <circle
+       style="fill:url(#radialGradient4723);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4697"
+       cx="32"
+       cy="32"
+       r="32" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="S"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;line-height:125%;font-family:Verdana;-inkscape-font-specification:Verdana;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="14.363636"
+       y="50.000004"
+       id="text4726"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4728"
+         x="14.363636"
+         y="50.000004">S</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="@"
+     style="display:inline">
+    <path
+       sodipodi:type="spiral"
+       style="fill:none;fill-rule:evenodd;stroke:#01ff01;stroke-width:4.4000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4781"
+       sodipodi:cx="-31.854696"
+       sodipodi:cy="29.387798"
+       sodipodi:expansion="0.81999999"
+       sodipodi:revolution="3.1820095"
+       sodipodi:radius="28.262867"
+       sodipodi:argument="-17.396923"
+       sodipodi:t0="0.62708604"
+       d="M -29.029256,48.455939 C -39.917068,50.804116 -50.624946,43.244851 -52.860763,32.500392 -55.344189,20.566021 -47.040851,8.8648323 -35.248734,6.4823428 -22.287851,3.8637149 -9.6106578,12.89754 -7.0838588,25.717356 -4.3304251,39.687011 -14.082547,53.324617 -27.912349,55.993646 -38.72742,58.080859 -49.946951,53.187361 -56.017759,44.048495"
+       transform="scale(-1,1)" />
+  </g>
+</svg>
