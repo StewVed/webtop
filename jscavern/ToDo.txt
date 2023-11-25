@@ -1,0 +1,39 @@
+
+
+-------------------------------- Done ---------------------------------
+
+
+Make animations for the Evils
+  They are in the original...
+
+Main menu
+  [PAUSED | Game Over] with a line below?
+  <hr>
+  New Game (Easy | Normal | Hard)
+  Load Game (greyed out if no save)
+  Save Game (Slots like TellTale Games)
+  <hr>
+  Show Touch Controls (red/green words)
+  modern graphics & sounds (red/green words)
+
+
+ - - - - - - - - - - - further ideas/improvements - - - - - - - - - - -
+
+Gimmick - Animate the 'loading' of a level - top down, left to right I think it was.
+
+New, better looking sprites
+
+New, better sounds
+
+Smooth animation
+  May not really be needed
+
+Make level editor easy to use, so the users can create/edit levels
+  Put in some kind of "Submit Level" button or somert
+
+
+Make the screen draggable in the center (from picture viewer)
+  Pinch/pull for zooming in/out of the FULL game to look around
+    Center on Bod button when bod not centered.
+
+

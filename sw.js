@@ -1,5 +1,5 @@
-var zAppVersion = 'sw2019-09-20';
-var WTV = './190920';
+var zAppVersion = 'sw2023-11-25';
+var WTV = './231125';
 
 self.addEventListener('install', function(event) {
   event.waitUntil(caches.open(zAppVersion).then(function(cache) {
@@ -8,7 +8,7 @@ self.addEventListener('install', function(event) {
       , './favicon.svg'
       , './favicon256.png'
       , './appmanifest'
-      , './190918.css '
+      , './231125.css '
       , WTV + '_ldr.js'
       , WTV + '_1.js'
       , WTV + '_2.js'
@@ -17,12 +17,15 @@ self.addEventListener('install', function(event) {
       , './images/1425710397e.svg'
       , './images/imgSprites_160429.png'
       , './images/webtop-screen.gif'
-      , './games/JSCavern/jscSprites2.png'
-      , './games/JSCavern/Death.ogg'
-      , './games/JSCavern/Diamond.ogg'
-      , './games/JSCavern/Heart.ogg'
-      , './games/JSCavern/Jetpack.ogg'
-      , './games/JSCavern/Pics/OverallMap.png'
+      , './jscavern/index.html'
+      , './jscavern/210507.js'
+      , './jscavern/style.css'
+      , './jscavern/images/jscSprites2.png'
+      , './jscavern/images/OverallMap.png'
+      , './jscavern/audio/Death.ogg'
+      , './jscavern/audio/Diamond.ogg'
+      , './jscavern/audio/Heart.ogg'
+      , './jscavern/audio/Jetpack.ogg'
       , './wordsearch/index.html'
       , './wordsearch/190508.js'
       , './wordsearch/190508.css'

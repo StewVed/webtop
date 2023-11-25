@@ -1,10 +1,16 @@
 /*
-  Copyright © 2019 Stewart J. Robinson (AKA StewVed, Ved)
+  Copyright © 2023 Stewart J. Robinson (AKA StewVed, Ved)
   To show your appreciation of my work, feel free to talk about, and link to my website(s).
   If you wish to copy/use code from [any part of] my website(s), please contact me. Thank you.
 */
 
 var SiteCL =
+    '<span class="B">25th November 2023</span> Been a while!' +
+  '<br>' +
+  '</li><li><span class="B">Site Moved: </span>from stewved.co.uk to stewved.github.io/webtop' +
+  '</li><li><span class="B">Trepidation: </span>because it as been years since I fooled with this code, I'd be shocked if it just works!' +
+  '</li></ul>' +
+  '<hr>' +
     '<span class="B">20th September 2019</span> There be bugs!' +
   '<br>' +
   '</li><li><span class="B">New Stuff: </span>Added Toddlearner, Calorie Calculator, and Audio Tester from my FOSS Github projects.' +

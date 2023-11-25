@@ -1,5 +1,5 @@
 /*
- Copyright ?? 2019 Stewart J. Robinson (AKA StewVed, Ved)
+ Copyright © 2023 Stewart J. Robinson (AKA StewVed, Ved)
  To show your appreciation of my work, feel free to talk about, and link to my website(s)
  If you wish to copy/use code from [any part of] my website(s), please contact me. Thankyou.
 */

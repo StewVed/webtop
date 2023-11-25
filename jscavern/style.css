@@ -1,0 +1,147 @@
+/*
+  Copyright 2012-2014 Stewart J. Robinson (AKA StewVed, Ved)
+  To show your appreciation of my work, feel free to talk about, and link to my website(s)...
+  Please do not copy [any part of] my website(s). Thankyou.
+*/
+html{
+  background-color:black;
+}
+
+body {
+  color: #0f0;
+  position: absolute;
+  /* CSS centering code. When using transform scale, the translate has to be recalculated. */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  /* hide anything that goes offscreen */
+  overflow: hidden;
+  /* zero everything to give 100% available size */
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* make sure the font size is 100%/1em - shouldn't really be needed though. */
+  font-size: 1em;
+  /* make it so the user cannot select anything
+    damned vendor prefixes strike again ffs
+  */
+  /* Chrome has a bug where if transform scale exceeds 2,
+  the resolution changes. workaround: specify width. */
+  width: 896px;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;           /* as it should be! */
+}
+
+hr {
+  width: 10em;
+}
+
+.game {
+  clear:both;
+  position:absolute;
+  left:0;
+  top:0;
+}
+
+.scores {
+  position: relative;
+  float: left;
+  width: 23%;
+  font-size: 2em;
+  text-align: center;
+  display: inline;
+}
+
+.touchButtons {
+  position: absolute;
+  text-align: center;
+  line-height: 1.3em;
+  font-size: 3em;
+  bottom:1em;
+  border-radius: 5em;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  width: 1.4em;
+  height: 1.4em;
+  background-color: rgba(128, 128, 128, 0.4);
+  display: none;
+}
+
+
+.fsButton {
+  position: absolute;
+  font-weight: bold;
+  transform: scale(2,1);
+  font-size: 2em;
+  text-align: center;
+  opacity: .5;
+  transition: opacity 0.1s, transform 0.1s;
+  cursor: default;
+  right: 0.5em;
+  bottom: 0;
+}
+
+.fsButton:hover {
+  transform: scale(2.4,1.2);
+  transition: 0.2s;
+  opacity: 1;
+}
+
+.fsButton:active {
+  transform: scale(2,1);
+  transition: 0.05s;
+}
+
+.fsdButton {
+  position: absolute;
+  font-weight: bold;
+  transform: scale(2.4,1.2);
+  font-size: 2em;
+  text-align: center;
+  opacity: .5;
+  transition: opacity 0.1s, transform0.1s;
+  right:0.5em;
+  bottom:0;
+}
+
+.fsdButton:hover {
+  transform: scale(2,1);
+  transition: 0.2s;
+  opacity: 1;
+}
+
+.fsdButton:active {
+  transform: scale(2.4,1.2);
+  transition: 0.05s;
+}
+
+#menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  background-color: rgba(32, 32, 32, 0.8);
+  text-align: center;
+  font-size: 3em;
+  line-height: 1em;
+}
+
+.menuSelected {
+  opacity: 0.5;
+  animation: oPulse .5s linear alternate infinite;
+  }
+
+@keyframes oPulse {
+  from {
+   text-shadow:0 0 0;
+  }
+
+  to {
+    text-shadow:0 0 0.3em;
+    font-size: 1.2em;
+    opacity: 1;
+  }
+}
