@@ -4,11 +4,18 @@
   If you wish to copy/use code from [any part of] my website(s), please contact me. Thank you.
 */
 
+
 var SiteCL =
+   '<span class="B">29th November 2023</span>' +
+  '<br>' +
+  '</li><li><span class="B">Bug Fix: </span>moving a window up or down quickly now works again!' +
+  '</li><li><span class="B">Optimize: </span>compressed the css and script part of the index.html.' +
+  '</li></ul>' +
+  '<hr>' +
     '<span class="B">25th November 2023</span> Been a while!' +
   '<br>' +
   '</li><li><span class="B">Site Moved: </span>from stewved.co.uk to stewved.github.io/webtop' +
-  '</li><li><span class="B">Trepidation: </span>because it as been years since I fooled with this code, I'd be shocked if it just works!' +
+  '</li><li><span class="B">Trepidation: </span>because it as been years since I fooled with this code, I\'d be shocked if it just works!' +
   '</li></ul>' +
   '<hr>' +
     '<span class="B">20th September 2019</span> There be bugs!' +
@@ -49,7 +56,7 @@ var SiteCL =
   '<span class="B">22nd September 2017</span> It has been a while!' +
   '<br>' +
   '<ul><li><span class="B">News: </span>Since I currently get no income from the webtop, or it&apos;s apps and games, I cannot spend  much time on it. Thas is why it is not updated often.' +
-  //'</li><li><span class="B">New Stuff: </span>New Offer Wall from AdscendMedia, where you can do stuff like watch an EngageMe.tv channel (one at a time!), and surveys. Doing so will support my work! Thank you!' +
+  '</li><li><span class="B">New Stuff: </span>New Offer Wall from AdscendMedia, where you can do stuff like watch an EngageMe.tv channel (one at a time!), and surveys. Doing so will support my work! Thank you!' +
   '</li><li><span class="B">Bug-fix: </span>Fixed typo for MemGuess; I changed the link on Github, and it is now updated here.' +
   '</li><li><span class="B">Bug-fix: </span>Fixed a couple bugs with Dosh Manager - Other Out not working, and the windows being too short.' +
   '</li><li><span class="B">In the works: </span>Food Diary - private and anonymous, unlike MyFitnessPal, etc. and possibly other ways of supporting my and my work.' +
@@ -494,6 +501,8 @@ var SiteCL =
   '</li><li><span class="B">Improvement: </span>About and Change-log windows are now Always-On-Top Dialogues, as they should be. :D' +
   '</li><li>Small bug-fixes/improvements here and there.' +
   '</li></ul>' +
+
+
   '<hr>' +
   '<span class="B">Sunday 3rd November 2013</span>' +
   '<ul><li><span class="B">New Stuff: </span>title-bar double-click Max/norm added! (works even on the top bar for focused window.)' +
@@ -671,6 +680,9 @@ var SiteCL =
   '</li><li><span class="B">Edit:</span> Re-added my Wage Calculator which hasn&apos;t been on the site since it&apos;s last major overhaul, and also haven&apos;t bothered with my Password Generator, or my unfinished Working Tax Credits Calculator; Both have loads of web-based equivalents online... If you want them back let me know, and I&apos;ll add them once more - With my new site, it is simple to do so :D' +
   '</li></ul>' +
   '<p style="Text-align:center; font-weight:bold;">I did a change-log for the 17th of January before this, then forgot to add to it as I tinkered with the site!</p>';
+ 
+/* ''; */
+
 
 var copyNotice = document.getElementById('crn').innerHTML;
 var bugNotice = document.getElementById('bugN').innerHTML;
@@ -950,6 +962,9 @@ var PrivateDiaryCL =
   '<ul><li><span class="B">Pre Release</span> with all parts working as far as I know.... have a look, try to break it, and let me know what you find.' +
   '</li></ul>';
 
+
+
+
 var TeaTimer =
   '<p style="margin:0;padding:0;font-weight:bold;font-size:1.5em;text-align:center;"><q>Don&apos;t burn your Dinner!</q></p>' +
   '<p style="text-align:center;">Click on one and drag up or down to set the time.<br>Click <q>></q> to play/pause the timer.</p>' +
@@ -1035,24 +1050,17 @@ var videoPlayer =
 var videoPlayerCL = 'ToDo!';
 
 var JSCavern =
-  'This is a (almost complete) remake of the classic game QL Cavern.' +
+  'This is a (mostly faithful and complete) remake of the classic game QL Cavern.' +
   '<p>The original was created in 1985 by Janko Mrsic Flogel.</p>' +
   '<p>This was one of my first projects for the internet, using HTML5 (HTML/JavaScript/CSS).</p>' +
   '<p>Use Gamepad, Keyboard, or press on screen edges to move.</p>' +
   bugNotice + copyNotice;
 
+
 var dialogueFullScreen;
 
 
-var zButtonFaceBook =
-  '';
+var zButtonFaceBook = '';
 
-var zButtonTwitter =
-  '';
+var zButtonTwitter = '';
 
-
-var aboutAdscend = 'You can show your support for Stewved&apos;s'
-  + ' Webtop, by doing activities on the offerwall. Please only'
-  + ' run one EngageMe.tv channel at a time. Thank You.'
-  + bugNotice + copyNotice
-;
