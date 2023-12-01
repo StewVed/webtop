@@ -1,5 +1,5 @@
-var zAppVersion = 'sw2023-11-29';
-var WTV = './231129';
+var zAppVersion = 'sw2023-12-01';
+var WTV = './20231201';
 
 self.addEventListener('install', function(event) {
   event.waitUntil(caches.open(zAppVersion).then(function(cache) {
